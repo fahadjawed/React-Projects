@@ -1,0 +1,17 @@
+.box{
+    word-wrap:break-word
+}
+.div{
+  margin-left: 200px;
+padding-top: 100px;
+}
+
+.background{
+  height: auto !important;
+  min-height: 662px;
+
+
+}
+.top{
+  padding-top: 10%
+}
