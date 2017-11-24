@@ -1,0 +1,21 @@
+
+.child{
+    display: inline-block
+}
+
+.applied{
+   
+    height:90px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.studiv{
+    width:1200px;
+    margin : 0 auto;
+}
+.paper2{
+    width: 50px;
+    /* height: 400px; */
+margin-left:100px
+   /* margin-top: 70px; */
+}

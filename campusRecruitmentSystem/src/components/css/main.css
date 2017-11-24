@@ -1,0 +1,14 @@
+.paper1{
+    width: 350px;
+    /* height: 1000px; */
+margin-right: 1000px;
+
+    
+}
+.userdata{
+    position: fixed;
+    width:300px
+}
+.maindiv{
+    display: inline;
+}
