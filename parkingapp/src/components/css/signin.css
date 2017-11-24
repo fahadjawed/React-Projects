@@ -1,0 +1,26 @@
+.paper{
+ width:300px;
+ height:500px;
+ margin:0 auto;
+ 
+}
+
+.child{
+    display: inline-block
+}
+.para{
+    min-width:30px;
+
+
+}
+.data{
+    width: 1200px
+}
+
+.maindiv{
+    width:1200px
+}
+.heading{
+    margin-left:70px;
+    margin-bottom: -20px
+}

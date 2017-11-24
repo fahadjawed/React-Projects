@@ -1,0 +1,43 @@
+.lines{
+    width:60px;
+    height:10px;
+    background-color: white;
+    display: inline;
+   margin:30px
+    
+
+}   
+.slots{
+    display: inline;
+}
+
+.spot{
+    width: 59px;
+    height:50px;
+    border:5px solid white;
+    display: inline-block;
+    margin:10px
+}
+
+.maindiv{
+    margin-top:120px;
+    max-width: 800px
+    
+   
+}
+.btns{
+    display: inline;
+    /* padding-right:0px; */
+    margin-left:60px
+}
+.form{
+    margin-left : 70px;
+    padding-top:40px
+}
+.line{
+    background-color: white;
+}
+
+.parent{
+    margin-left:30px
+}

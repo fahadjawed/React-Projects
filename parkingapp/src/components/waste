@@ -1,0 +1,156 @@
+// firebase.database().ref().child(`areas/${this.state.slots[index]}`).on("value",(snapshot) =>{
+        // let data = snapshot.val()
+        
+  
+        //     if(data){
+               
+            // if(data.bookedby ){
+            //    if(data.area === this.props.name){
+            //     if(data.start>this.state.starttime && this.state.endtime < data.start  ){
+                    
+                  
+            
+          
+          
+            // alert("Your Slot Has Been Booked");
+
+            //     }
+                // else{
+                //     alert("this slot is not available for this time period")
+                // }
+            // }
+            // else{
+            //     firebase.database().ref(`areas/`).push({
+            //         bookedby: firebase.auth().currentUser.email,
+            //         date: this.state.date,
+            //        area:this.props.name,
+            //         start: this.state.starttime,
+            //         slot:(index+1),
+            //         till: this.state.endtime,
+    
+            //     })
+                
+            //     alert("Your Slot Has Been Bookeddd");
+            // }
+        //     }
+        // }
+        //     // else{
+            //     firebase.database().ref(`areas/`).push({
+            //         bookedby: firebase.auth().currentUser.email,
+            //         date: this.state.date,
+            //        area:this.props.name,
+            //         start: this.state.starttime,
+            //         slot:(index+1),
+            //         till: this.state.endtime,
+    
+            //     })
+                
+            //     alert("Your Slot Has Been Bookeddd");
+
+            // }
+        
+        //     }
+        // })
+
+
+
+
+
+// console.log(this.state.arr[index])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* 
+                                        <Card
+                                         style= {{
+                                            width:"300px",
+                                            height:"350px",
+                                            borderTopLeftRadius:"4px",
+                                            borderBottomRightRadius:"5px",
+                                            borderTopRightRadius:"51px",
+                                            margin:"30px"
+                                         }}
+
+                                        >
+                                        <CardHeader  >
+                                            <div  >
+                                            
+                                                <p  ><strong>Name: </strong> {value.name} </p>
+                                                <p  ><strong>Email: </strong> {value.email} </p>
+                                                </div>
+                                                </CardHeader>
+                                            <CardText >
+                                            <p><strong> Feedback: </strong></p><p width="30px" > {value.feedback}</p>
+
+                                                </CardText>                                                
+
+
+                                        
+                                            <CardActions>
+                                                <FlatButton label="Action1" />
+                                                <FlatButton label="Action2" />
+                                            </CardActions> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                             for (let i in data) {
+                    if ((data[i].start > get && end < data[i].start)) {    // 3rd If
+                        if (data[i].area === this.props.name) {//4th If
+                            this.setState({ bool: bool, form: true });
+                        }
+                    }
+                    else { // Else of 3rd If
+                        index.push(data[i].slot)
+                        console.log("else")
+                        
+                    }
+                }
+                for (var j = 0; j < index.length; j++) {
+                    bool.splice(index[j] - 1, 1, false);
+                }
+                this.setState({ bool: bool, form: true, stime: get, etime: end });
